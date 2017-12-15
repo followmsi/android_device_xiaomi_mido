@@ -3,3 +3,7 @@ rr.build.type=Unofficial
 
 # Fix Cast/Miracast
 persist.sys.wfd.virtual=0
+
+# Fling Velocity
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
