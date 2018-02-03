@@ -1,2 +1,5 @@
 ro.rr.version=v6.0.0
 rr.build.type=Unofficial
+
+# Fix Cast/Miracast
+persist.sys.wfd.virtual=0
