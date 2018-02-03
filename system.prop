@@ -1,0 +1,6 @@
+#
+# system.prop for mido
+#
+
+# Fix Cast/Miracast
+persist.sys.wfd.virtual=0
