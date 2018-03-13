@@ -10,3 +10,7 @@ ro.max.fling_velocity=20000
 
 #low audio flinger standby delay to reduce power consumption
 ro.audio.flinger_standbytime_ms=300
+
+# Increase the number of voice call and media volume steps
+ro.config.vc_call_vol_steps=8
+ro.config.media_vol_steps=20
