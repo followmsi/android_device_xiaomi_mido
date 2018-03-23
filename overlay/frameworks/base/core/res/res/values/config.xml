@@ -353,9 +353,6 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
-    <!-- <bool name="config_button_brightness_support">true</bool> -->
-    <!-- <integer name="config_button_brightness_default">128</integer> -->
-
     <integer name="config_backPanicBehavior">0</integer>
 
     <!-- Whether the always on display mode is available. -->
