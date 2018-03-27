@@ -120,7 +120,14 @@ ENABLE_CPUSETS := true
 TARGET_HW_DISK_ENCRYPTION := true
 
 # Dexpreopt
-WITH_DEXPREOPT := true
+ifeq ($(HOST_OS),linux)
+  ifneq ($(TARGET_BUILD_VARIANT),eng)
+    ifeq ($(WITH_DEXPREOPT),)
+      WITH_DEXPREOPT := true
+    endif
+  endif
+endif
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
 
 # Display
 MAX_VIRTUAL_DISPLAY_DIMENSION := 4096
